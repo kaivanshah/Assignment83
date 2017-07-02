@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="#000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingLeft="5dp" android:paddingTop="10dp" android:textSize="20sp" android:id="@+id/tv_Title" android:textColor="#FFF" android:text="@string/TitleMsg" android:layout_marginBottom="20dp" />
+    <TextView
+        android:id="@+id/text"
+        android:text="@string/Msg"
+        android:paddingLeft="5dp"
+        android:layout_below="@id/tv_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:textColor="#FFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_below="@id/text" android:orientation="horizontal" android:background="#808080">
+        <Button
+            android:id="@+id/btn_Yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/YES"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/text" />
+        <Button
+            android:id="@+id/btn_No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/NO"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/text"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment83</string>
+    <string name="YES">Yes</string>
+    <string name="NO">No</string>
+    <string name="TitleMsg">Confirm Delete</string>
+    <string name="Msg">Are you sure you want to delete this?</string>
+</resources>
